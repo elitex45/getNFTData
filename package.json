@@ -1,0 +1,20 @@
+{
+  "name": "getNFTData",
+  "version": "1.0.0",
+  "description": "A script to analyze and store current NFT holders using Multicall3 and MongoDB.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node getMiladyCurrentHolders.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.6.3",
+    "ethers": "^6.7.0"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "",
+  "license": "MIT"
+}
